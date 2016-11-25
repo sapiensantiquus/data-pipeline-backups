@@ -70,7 +70,7 @@ fi
 
 ls -lR /backups
 ls -lR /mnt/backups
-
+df 
 echo "sudo rm /tmp/efs-backup.log"
 sudo rm /tmp/efs-backup.log
 echo "sudo rsync -avh --stats --delete --numeric-ids --log-file=/tmp/efs-backup.log /backup/ /mnt/backups/$efsid/$interval.0/"

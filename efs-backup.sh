@@ -68,7 +68,7 @@ if [ ! -d /mnt/backups/efsbackup-logs ]; then
   sudo chmod 700 /mnt/backups/efsbackup-logs
 fi
 
-ls -lR /backups
+ls -lR /backup
 ls -lR /mnt/backups
 df 
 echo "sudo rm /tmp/efs-backup.log"

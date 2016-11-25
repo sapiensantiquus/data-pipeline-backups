@@ -20,6 +20,8 @@ interval=$3
 retain=$4
 efsid=$5
 
+echo "args: $1 $2 $3 $4 $5"
+
 # Prepare system for rsync
 #echo 'sudo yum -y update'
 #sudo yum -y update
